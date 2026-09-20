@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 1.7,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,22 +51,22 @@
         "silk_text_upright": false,
         "zones": {
           "border_display_style": 2,
-          "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
-          "corner_smoothing": 2,
+          "border_hatch_pitch": 1.0,
+          "corner_radius": 0.0,
+          "corner_smoothing": 1,
           "fill_mode": 0,
-          "hatch_gap": 1.5,
-          "hatch_orientation": 0.0,
+          "hatch_gap": 1.0,
+          "hatch_orientation": 45.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 1.0,
-          "min_island_area": 10.0,
-          "min_thickness": 0.7,
+          "min_clearance": 1.1,
+          "min_island_area": 0.0013161349,
+          "min_thickness": 0.025,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.8,
-          "thermal_relief_spoke_width": 0.8
+          "remove_islands": 1,
+          "thermal_relief_gap": 1.0,
+          "thermal_relief_spoke_width": 1.0
         }
       },
       "diff_pair_dimensions": [
@@ -102,7 +102,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -247,12 +247,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.0,
-          "drill": 0.5
+          "diameter": 1.5,
+          "drill": 0.8
         },
         {
-          "diameter": 1.5,
-          "drill": 0.7
+          "diameter": 2.0,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": true
@@ -264,7 +264,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "3.5"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -517,7 +517,7 @@
     ]
   },
   "meta": {
-    "filename": "Colorofon_V3_SMD.kicad_pro",
+    "filename": "Colorofon_V2_SMD.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -578,7 +578,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -830,18 +830,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Colorofon_V3_SMD.kicad_sch",
-        "name": "Colorofon_V3_SMD",
+        "filename": "Colorofon_V2_SMD.kicad_sch",
+        "name": "Colorofon_V2_SMD",
         "uuid": "7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
       }
     ],
-    "used_designators": "#FLG1-3,R1-35,J1-8,C1-23,U1-4,D1-9,#PWR1-56,Q1-8,RV1-9,TP*1,TP1-38,#SYM1-3,SW1,S1,FID1,POT1-14,SYM1,H1-4",
+    "used_designators": "J1-8,#FLG1-3,R1-35,C1-23,U1-4,#PWR1-56,D1-9,Q1-12,TP*1,RV1-9,TP1-38,#SYM1-3,SW1,S1,POT1-14,FID1,SYM1-2,H1-5,Qx1-3",
     "variants": []
   },
   "sheets": [
     [
       "7ba8c1e4-2d7d-4928-ac8a-fd245d19922a",
-      "Colorofon_V3_SMD"
+      "Colorofon_V2_SMD"
     ]
   ],
   "text_variables": {},

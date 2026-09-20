@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "7ba8c1e4-2d7d-4928-ac8a-fd245d19922a")
 	(paper "A4")
+	(title_block
+		(title "Colorofon V2")
+		(date "2026-09-20")
+		(rev "3.5")
+	)
 	(lib_symbols
 		(symbol "691322310002_1"
 			(pin_names
@@ -1628,6 +1633,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Series"
 			(pin_names
 				(offset 1.016)
@@ -2652,644 +2858,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Graphic:Logo_Open_Hardware_Small"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#SYM"
-				(at 0 6.985 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Logo_Open_Hardware_Small"
-				(at 0 -5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Open Hardware logo, small"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Logo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Logo_Open_Hardware_Small_0_1"
-				(polyline
-					(pts
-						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
-						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
-						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
-						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
-						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
-						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
-						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
-						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
-						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
-						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
-						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
-						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
-						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
-						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
-						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
-						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
-						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
-						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
-						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
-						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
-						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
-						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
-						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
-						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
-						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
-						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
-						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
-						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
-						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
-						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
-						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
-						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
-						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
-						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
-						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
-						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
-						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
-						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
-						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
-						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
-						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
-						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
-						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
-						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
-						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
-						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
-						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
-						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
-						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
-						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
-						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
-						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
-						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
-						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Graphic:SYM_Arrow45_Normal"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#SYM"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SYM_Arrow45_Normal"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Filled 45° arrow, 200mil"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "symbol arrow angled 45°"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SYM_Arrow45_Normal_0_1"
-				(polyline
-					(pts
-						(xy 1.524 -1.524) (xy -1.778 1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -1.778) (xy 0.254 -1.016) (xy 1.016 -0.254) (xy 1.778 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Graphic:SYM_EasterEgg_42x60mm"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SYM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SYM_EasterEgg_42x60mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Symbol:EasterEgg_EWG1308-2013_ClassA"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:347:0671:0854:de:PDF"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "EasterEgg, ClassA, Medium Size"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "egg easter oval"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "EasterEgg*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SYM_EasterEgg_42x60mm_0_0"
-				(polyline
-					(pts
-						(xy -21.336 31.75) (xy 21.082 31.75)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -21.082 17.272) (xy 20.828 17.272)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -20.32 31.75) (xy -17.018 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -18.542 41.91) (xy 18.542 41.91)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 31.75) (xy -14.478 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -15.24 31.75) (xy -11.938 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 31.75) (xy -9.398 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 31.75) (xy -6.858 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -9.144 57.404) (xy 9.144 57.404)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 31.75) (xy -4.318 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 31.75) (xy -1.778 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 31.75) (xy 0.762 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 31.75) (xy 3.302 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 31.75) (xy 5.842 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 6.7876 0.8362) (xy 9.6194 2.1032) (xy 12.2601 3.7704) (xy 14.664 5.8069) (xy 16.7858 8.1821)
-						(xy 18.5799 10.8653) (xy 20.0009 13.8258) (xy 21.0033 17.0328) (xy 21.1579 17.9022) (xy 21.3178 19.4063)
-						(xy 21.4338 21.2395) (xy 21.5049 23.284) (xy 21.5298 25.422) (xy 21.5076 27.5357) (xy 21.4371 29.5073)
-						(xy 21.3173 31.219) (xy 21.1471 32.5531) (xy 21.0293 33.1976) (xy 19.8134 38.3331) (xy 18.153 43.1691)
-						(xy 16.0395 47.7248) (xy 13.4638 52.0197) (xy 10.4171 56.0733) (xy 9.6566 56.9666) (xy 8.2477 58.489)
-						(xy 6.9641 59.662) (xy 5.7116 60.5673) (xy 4.3959 61.2863) (xy 3.6465 61.6273) (xy 2.8869 61.9035)
-						(xy 2.1275 62.0584) (xy 1.1882 62.1264) (xy -0.1111 62.1414) (xy -1.2192 62.1318) (xy -2.2063 62.0754)
-						(xy -2.9835 61.9377) (xy -3.7313 61.6843) (xy -4.63 61.2808) (xy -5.679 60.7202) (xy -6.9361 59.8507)
-						(xy -8.2194 58.7217) (xy -9.6079 57.2622) (xy -11.1805 55.4015) (xy -14.1139 51.3837) (xy -16.6002 47.0991)
-						(xy -18.6319 42.5472) (xy -20.2187 37.706) (xy -21.3706 32.5531) (xy -21.5144 31.4761) (xy -21.6403 29.8364)
-						(xy -21.7184 27.9175) (xy -21.7496 25.8363) (xy -21.7349 23.7097) (xy -21.6753 21.6545) (xy -21.5719 19.7876)
-						(xy -21.4256 18.2259) (xy -21.2374 17.0862) (xy -20.7288 15.2493) (xy -19.4413 12.0552) (xy -17.7312 9.1385)
-						(xy -15.6363 6.5369) (xy -13.1945 4.2881) (xy -10.4433 2.4299) (xy -7.4207 0.9998) (xy -4.1643 0.0357)
-						(xy -2.4005 -0.2572) (xy 0.7322 -0.3747) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.635)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 31.75) (xy 8.382 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 31.75) (xy 10.922 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 31.75) (xy 13.462 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 31.75) (xy 16.002 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 15.24 31.75) (xy 18.542 41.91)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 31.75) (xy 19.685 38.1)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 20.32 31.75) (xy 20.955 33.655)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4031,9 +3599,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BD140"
+		(symbol "Transistor_FET:FDN340P"
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -4052,7 +3619,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BD140"
+			(property "Value" "FDN340P"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4063,7 +3630,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4076,8 +3643,8 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDN340P-D.PDF"
+				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4088,7 +3655,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(property "Description" "-2A Id, -20V Vds, P-Channel MOSFET, 70mOhm Ron, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4099,7 +3666,7 @@
 					)
 				)
 			)
-			(property "Sim.Device" "PNP"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4110,7 +3677,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=E 2=C 3=B"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4121,80 +3688,11 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Low Voltage Transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO?126*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BD140_0_1"
+			(symbol "FDN340P_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.635 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4205,7 +3703,78 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -4215,12 +3784,82 @@
 						(type outline)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "BD140_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
+			(symbol "FDN340P_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "E"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4236,9 +3875,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4253,10 +3892,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "B"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4646,7 +4285,7 @@
 	)
 	(rectangle
 		(start 13.97 52.705)
-		(end 58.42 86.36)
+		(end 68.58 86.36)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4656,9 +4295,9 @@
 		)
 		(uuid "b56608fd-37b3-48f4-a686-9cfbd86580ed")
 	)
-	(text "1-4k +27dB"
+	(text "1-4,1k +31dB"
 		(exclude_from_sim no)
-		(at 238.506 76.962 0)
+		(at 235.966 76.708 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4666,17 +4305,7 @@
 		)
 		(uuid "14002d9d-24bb-4fd2-ad38-8b1b8c2a5cae")
 	)
-	(text "sprawdzić 4,7 vs 10uF w połączeniu z trymerem 10k"
-		(exclude_from_sim no)
-		(at 160.782 75.946 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "24457165-9cb5-4ea7-acd7-0a82cb469c95")
-	)
-	(text "20-300Hz +28dB"
+	(text "10-300Hz +31dB"
 		(exclude_from_sim no)
 		(at 235.458 31.242 0)
 		(effects
@@ -4686,15 +4315,35 @@
 		)
 		(uuid "66a9521f-7dd4-482e-b006-c30eb60c675c")
 	)
+	(text "dodać przełącznik między 15k a 5k do basów i średnich?"
+		(exclude_from_sim no)
+		(at 19.558 -10.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bb6d534-73a3-4dcb-9f09-84afd55fee14")
+	)
 	(text "Reference voltage 6V"
 		(exclude_from_sim no)
-		(at 47.752 85.09 0)
+		(at 56.642 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "8fb4e348-d105-46e6-9b1d-188d4636557f")
+	)
+	(text "zmienic RV7 na res 5k"
+		(exclude_from_sim no)
+		(at 192.532 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a893bf8-2c4b-46af-b220-7997d7045a80")
 	)
 	(text "Tantal rozmiar 1uF\nCapacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm"
 		(exclude_from_sim no)
@@ -4706,29 +4355,29 @@
 		)
 		(uuid "9e21bdec-5ed2-4420-9c13-246a67ae2d94")
 	)
-	(text "stworzyć symbol konektora wurtha"
+	(text "Zasilacz 800mA - 1 segment 14mA, 155mW"
 		(exclude_from_sim no)
-		(at 31.496 144.272 0)
+		(at 247.142 -1.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "a35c1de0-5421-43c7-b527-983cc1a8c664")
+		(uuid "c2e1adf1-8ca3-4b1f-9b9e-49bf01205a2e")
 	)
-	(text "ściągać STEP montażowych\n"
+	(text "do poprawy\n"
 		(exclude_from_sim no)
-		(at 28.194 140.97 0)
+		(at 236.982 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "cf883f0e-202d-47d4-865c-2bf13b4d6312")
+		(uuid "c961b3c4-6f5d-4d89-aee2-8d4da2d25d9b")
 	)
 	(text "resistor to \nstabilize the\npower supply \ncapacitance"
 		(exclude_from_sim no)
-		(at 49.022 77.978 0)
+		(at 57.912 77.978 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4736,7 +4385,7 @@
 		)
 		(uuid "d25e37a2-0da1-4f2f-ba0b-70853818a328")
 	)
-	(text "5-18kHz 34dB"
+	(text "5-20k +30dB"
 		(exclude_from_sim no)
 		(at 237.49 122.428 0)
 		(effects
@@ -4746,15 +4395,31 @@
 		)
 		(uuid "da1faf2c-3984-43af-953f-a3d51a849d42")
 	)
+	(text "doregulować tłumienie do potencjometrow"
+		(exclude_from_sim no)
+		(at 115.824 30.48 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dae8d947-d3cf-4d74-8c0f-a6546532972f")
+	)
 	(text "dodać biblioteki dla Generic Resitor i Capacitor"
 		(exclude_from_sim no)
-		(at 38.1 136.652 0)
+		(at 23.622 -5.588 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e3f0d989-40d4-4239-a7aa-bd04f193fa16")
+	)
+	(junction
+		(at 36.83 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "042957dd-46c2-4401-9999-edeb602b7b4c")
 	)
 	(junction
 		(at 144.78 146.05)
@@ -4775,7 +4440,7 @@
 		(uuid "0cba5c9a-0c41-4afb-8f94-3c5ec0ab2f48")
 	)
 	(junction
-		(at 46.99 21.59)
+		(at 49.53 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0db80c04-742a-4f2b-9180-5cf9a1d8203a")
@@ -4799,6 +4464,12 @@
 		(uuid "1768e7dc-ae26-4186-a7f5-969c35b3a506")
 	)
 	(junction
+		(at 132.08 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1940db5b-3c61-4f7a-9a2e-e8a3eca3bd23")
+	)
+	(junction
 		(at 233.68 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4811,13 +4482,13 @@
 		(uuid "1c74a076-92f9-429c-b4a7-bc5fd1f7705e")
 	)
 	(junction
-		(at 26.67 36.83)
+		(at 26.67 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "209868f2-0842-477c-a0ee-403c93701a76")
 	)
 	(junction
-		(at 57.15 21.59)
+		(at 59.69 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2287124a-b371-4088-9a0d-a0c95ac4c8c1")
@@ -4835,16 +4506,16 @@
 		(uuid "27b62fda-1243-4e5a-9698-d8305e759170")
 	)
 	(junction
+		(at 36.83 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ff330d-6175-40e3-a55a-dda8bc369626")
+	)
+	(junction
 		(at 144.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a540754-e515-4d1a-a94b-d37c8c0f8948")
-	)
-	(junction
-		(at 36.83 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ce2f109-f6fd-436a-822e-fb8ba5fd23e7")
 	)
 	(junction
 		(at 125.73 111.76)
@@ -4865,6 +4536,12 @@
 		(uuid "32b96812-7957-4004-85c6-222906d780a3")
 	)
 	(junction
+		(at 139.7 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f982e5-3dd6-4631-88c2-77f95a032dc6")
+	)
+	(junction
 		(at 167.64 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4883,7 +4560,7 @@
 		(uuid "3b02f7b1-718e-4c8c-b5b7-9c6d0a3f7f89")
 	)
 	(junction
-		(at 83.82 21.59)
+		(at 86.36 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "413f5251-fffb-4cb7-a40d-44a34137110d")
@@ -4895,10 +4572,10 @@
 		(uuid "415655ad-4fde-42c4-8cf9-32f8d29ddd86")
 	)
 	(junction
-		(at 204.47 91.44)
+		(at 204.47 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "42c44505-a7a8-4687-b8a1-4c79070d2c56")
+		(uuid "422822c4-0d25-4b10-a5e6-e2757247767c")
 	)
 	(junction
 		(at 177.8 102.87)
@@ -4937,7 +4614,7 @@
 		(uuid "55b29523-e0d7-4dd1-bcd3-3c02352741bf")
 	)
 	(junction
-		(at 41.91 72.39)
+		(at 50.8 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58e9e122-5ef9-4a84-b271-84144fa41065")
@@ -4955,6 +4632,12 @@
 		(uuid "62ded43c-55b5-427a-b4d8-299952cc7099")
 	)
 	(junction
+		(at 204.47 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a2caed-aa2e-446a-8225-7297ab5d6b98")
+	)
+	(junction
 		(at 144.78 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4967,7 +4650,7 @@
 		(uuid "6741675b-d734-40eb-9a16-5bc7242717ee")
 	)
 	(junction
-		(at 83.82 36.83)
+		(at 86.36 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a45fbc0-298c-4d45-b073-a546ced0b35d")
@@ -4979,10 +4662,16 @@
 		(uuid "710be744-f625-4eaf-9e3b-2393dc656045")
 	)
 	(junction
-		(at 67.31 36.83)
+		(at 69.85 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "717a1602-8da6-4f4f-8643-f9fff16bfbfa")
+	)
+	(junction
+		(at 36.83 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "743c3470-599b-42b2-90bc-950e81c21bcf")
 	)
 	(junction
 		(at 189.23 57.15)
@@ -4997,12 +4686,6 @@
 		(uuid "83737157-6ba1-42f4-817a-cc668537ef5b")
 	)
 	(junction
-		(at 132.08 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89c452ce-9c35-4259-9180-e1b42db4267d")
-	)
-	(junction
 		(at 125.73 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5013,12 +4696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8efc7e7a-d39c-4448-a4a5-8285ec1c6d65")
-	)
-	(junction
-		(at 204.47 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "903af2cd-16ea-4878-9949-6abad493f06b")
 	)
 	(junction
 		(at 115.57 54.61)
@@ -5147,28 +4824,22 @@
 		(uuid "c8a1003e-02a4-45b2-be46-9bff98ac99e4")
 	)
 	(junction
-		(at 204.47 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb1261e9-fef8-45d7-b082-74d984652eda")
-	)
-	(junction
 		(at 139.7 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb86e3a3-abc9-40e8-b0ba-1ee6349e2597")
 	)
 	(junction
-		(at 57.15 36.83)
+		(at 26.67 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbdc20a5-97db-46f7-9524-13bd8a51e503")
+	)
+	(junction
+		(at 59.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d09938be-9ccb-44bc-adc9-c18f75e6b922")
-	)
-	(junction
-		(at 17.78 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4341fd3-ef7d-448a-9163-750593076857")
 	)
 	(junction
 		(at 189.23 110.49)
@@ -5201,7 +4872,7 @@
 		(uuid "e09810af-142c-4c3f-b7c7-2d4b28fe5305")
 	)
 	(junction
-		(at 67.31 21.59)
+		(at 69.85 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0f323d7-78b2-4d2d-bf86-c39048aab683")
@@ -5225,6 +4896,12 @@
 		(uuid "e3bb02ee-bad2-4d02-99ce-307c8ea309cc")
 	)
 	(junction
+		(at 204.47 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e48fb7e1-8f04-45db-a950-685aafe1203c")
+	)
+	(junction
 		(at 166.37 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5237,10 +4914,28 @@
 		(uuid "e9d103ad-b4e0-4770-8f9f-49cb42774097")
 	)
 	(junction
+		(at 17.78 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3e78b7-757b-4f69-b695-fee0e4ac3cd8")
+	)
+	(junction
 		(at 144.78 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b71c37-d8c5-44e0-aebd-f0852797698e")
+	)
+	(junction
+		(at 17.78 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f149c6fd-554c-4e5c-9dc7-4d44e59b50b2")
+	)
+	(junction
+		(at 41.91 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ba7a0c-fa8b-45d3-93a5-6ef2844032d0")
 	)
 	(junction
 		(at 125.73 66.04)
@@ -5255,7 +4950,7 @@
 		(uuid "f7ecaba4-e65b-4b34-9730-5c5ff5059444")
 	)
 	(junction
-		(at 46.99 36.83)
+		(at 49.53 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83f3b45-9037-4d44-b9e5-af3a3edf14e4")
@@ -5267,32 +4962,36 @@
 		(uuid "f8a58ff6-37bd-4adc-a249-430a39cc2fda")
 	)
 	(junction
-		(at 36.83 36.83)
+		(at 41.91 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fb0dd640-e8af-4c72-af26-acf13db33435")
-	)
-	(junction
-		(at 139.7 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9d639a-30e3-4d65-9c47-726720dc3792")
+		(uuid "ff676c92-0344-46a8-8117-12f0c7dc33b7")
 	)
 	(no_connect
-		(at 36.83 60.96)
+		(at 45.72 60.96)
 		(uuid "0c6e62a7-c6f0-445b-8440-ed92d13fb9ee")
 	)
 	(no_connect
-		(at 36.83 55.88)
+		(at 45.72 55.88)
 		(uuid "29a31996-1d05-428a-b9b5-2c127d8d37eb")
 	)
 	(no_connect
-		(at 52.07 58.42)
+		(at 60.96 58.42)
 		(uuid "931060fc-ee29-43db-950d-7fe2a1324c33")
 	)
 	(wire
 		(pts
-			(xy 46.99 21.59) (xy 46.99 25.4)
+			(xy 41.91 21.59) (xy 49.53 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0068938e-427b-4687-b5a3-616f0cc3fa53")
+	)
+	(wire
+		(pts
+			(xy 49.53 21.59) (xy 49.53 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 25.4) (xy 90.17 21.59)
+			(xy 92.71 25.4) (xy 92.71 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5342,13 +5041,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 90.17) (xy 204.47 92.71)
+			(xy 59.69 38.1) (xy 59.69 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07f436cf-0c8a-4012-9122-51f038784961")
+		(uuid "07d3b1d0-2489-4cf1-8391-4a1f453c23f1")
 	)
 	(wire
 		(pts
@@ -5362,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 90.17 36.83)
+			(xy 92.71 33.02) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5392,7 +5091,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 137.16) (xy 204.47 138.43)
+			(xy 204.47 135.89) (xy 204.47 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5141,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 36.83) (xy 90.17 36.83)
+			(xy 86.36 36.83) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5462,7 +5161,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 36.83) (xy 36.83 36.83)
+			(xy 26.67 38.1) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5482,16 +5181,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 36.83) (xy 46.99 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1825f71c-9e76-4f93-8df0-52017a4a3dec")
-	)
-	(wire
-		(pts
 			(xy 147.32 97.79) (xy 144.78 97.79)
 		)
 		(stroke
@@ -5502,7 +5191,27 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 21.59) (xy 36.83 25.4)
+			(xy 36.83 29.21) (xy 31.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7259df-6316-4e8b-b4c6-85afe64c6dcc")
+	)
+	(wire
+		(pts
+			(xy 31.75 39.37) (xy 33.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db74a18-333e-464c-a73e-ebde4f09b355")
+	)
+	(wire
+		(pts
+			(xy 41.91 21.59) (xy 41.91 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5542,7 +5251,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 67.31 36.83)
+			(xy 76.2 36.83) (xy 69.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5559,6 +5268,16 @@
 			(type default)
 		)
 		(uuid "230cff92-aa86-4185-a18c-aec0822bece1")
+	)
+	(wire
+		(pts
+			(xy 49.53 33.02) (xy 49.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2310abaa-37a5-4cad-87e5-4a7e83b6fd26")
 	)
 	(wire
 		(pts
@@ -5582,6 +5301,26 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 69.85) (xy 26.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fd32a2-9c7c-4d01-a371-f5380bec30d8")
+	)
+	(wire
+		(pts
+			(xy 204.47 91.44) (xy 204.47 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2662ad13-9e6a-49d9-9a89-a0f9ff6363ec")
+	)
+	(wire
+		(pts
 			(xy 115.57 142.24) (xy 123.19 142.24)
 		)
 		(stroke
@@ -5589,6 +5328,16 @@
 			(type default)
 		)
 		(uuid "266f1e66-ac58-4951-8691-6a2422a18fdb")
+	)
+	(wire
+		(pts
+			(xy 17.78 69.85) (xy 17.78 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2678bbaf-7793-40db-ba3a-9284611f40ac")
 	)
 	(wire
 		(pts
@@ -5662,7 +5411,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 21.59) (xy 90.17 21.59)
+			(xy 86.36 21.59) (xy 92.71 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5742,6 +5491,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 38.1) (xy 36.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301ebf33-685a-4ece-8a97-6f86dea27615")
+	)
+	(wire
+		(pts
 			(xy 189.23 93.98) (xy 189.23 92.71)
 		)
 		(stroke
@@ -5799,6 +5558,16 @@
 			(type default)
 		)
 		(uuid "3751b313-d63e-4e8a-90d2-72e1d9926915")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 49.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376cefb3-0871-4cb2-941f-6ad91c3d7d48")
 	)
 	(wire
 		(pts
@@ -5922,6 +5691,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 69.85) (xy 35.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc00431-4a7d-45ad-b4ed-e1a1d7f452aa")
+	)
+	(wire
+		(pts
 			(xy 204.47 156.21) (xy 204.47 160.02)
 		)
 		(stroke
@@ -5992,6 +5771,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 90.17) (xy 204.47 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a49cf5-8c77-4826-8c21-14e7a8f0b906")
+	)
+	(wire
+		(pts
 			(xy 204.47 82.55) (xy 212.09 82.55)
 		)
 		(stroke
@@ -6022,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 33.02) (xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452c33e2-991d-407f-a09a-3f90b2762f51")
+	)
+	(wire
+		(pts
 			(xy 212.09 36.83) (xy 212.09 40.64)
 		)
 		(stroke
@@ -6029,6 +5828,16 @@
 			(type default)
 		)
 		(uuid "4545538a-4f95-4883-9eec-544a3a0b2491")
+	)
+	(wire
+		(pts
+			(xy 204.47 45.72) (xy 204.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "461c8acf-daa8-4169-a71b-1ae3c829408e")
 	)
 	(wire
 		(pts
@@ -6052,7 +5861,17 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 74.93) (xy 26.67 78.74)
+			(xy 204.47 137.16) (xy 204.47 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486ae8e8-ef60-4154-95cf-de3533a98547")
+	)
+	(wire
+		(pts
+			(xy 35.56 74.93) (xy 35.56 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6112,16 +5931,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 135.89) (xy 204.47 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "514a3c84-e586-4368-8ad6-bb9aa2dd4db3")
-	)
-	(wire
-		(pts
 			(xy 139.7 128.27) (xy 139.7 133.35)
 		)
 		(stroke
@@ -6129,16 +5938,6 @@
 			(type default)
 		)
 		(uuid "518aec51-180f-44fd-9855-b7e8f3149b79")
-	)
-	(wire
-		(pts
-			(xy 17.78 68.58) (xy 17.78 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52537853-e2f5-418f-b305-f5671c27d1ed")
 	)
 	(wire
 		(pts
@@ -6242,7 +6041,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 31.75) (xy 26.67 36.83)
+			(xy 26.67 31.75) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6282,7 +6081,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 72.39) (xy 44.45 72.39)
+			(xy 50.8 72.39) (xy 53.34 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6309,6 +6108,16 @@
 			(type default)
 		)
 		(uuid "6253a967-cdcb-4f41-914f-df71b9c2bba7")
+	)
+	(wire
+		(pts
+			(xy 19.05 38.1) (xy 19.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "625c186d-b0ef-46bd-aee2-9b3ee509969a")
 	)
 	(wire
 		(pts
@@ -6342,6 +6151,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 44.45) (xy 204.47 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65517bc2-fb6f-470b-894d-bbd3d27dc16e")
+	)
+	(wire
+		(pts
 			(xy 165.1 57.15) (xy 166.37 57.15)
 		)
 		(stroke
@@ -6349,6 +6168,16 @@
 			(type default)
 		)
 		(uuid "67027d93-9bcd-4a76-8aff-e4d6bba4b558")
+	)
+	(wire
+		(pts
+			(xy 31.75 29.21) (xy 31.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675c164b-eefc-4e4d-a232-20b869b0bd0b")
 	)
 	(wire
 		(pts
@@ -6482,7 +6311,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 21.59) (xy 46.99 21.59)
+			(xy 36.83 21.59) (xy 41.91 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6492,7 +6321,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 36.83) (xy 26.67 36.83)
+			(xy 19.05 38.1) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6542,6 +6371,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 39.37) (xy 35.56 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0f7ca1-e23d-44ce-9a84-0906800696d1")
+	)
+	(wire
+		(pts
 			(xy 189.23 64.77) (xy 191.77 64.77)
 		)
 		(stroke
@@ -6572,7 +6411,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 69.85) (xy 17.78 71.12)
+			(xy 17.78 68.58) (xy 17.78 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6662,13 +6501,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 69.85) (xy 26.67 69.85)
+			(xy 36.83 36.83) (xy 36.83 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85fa8fe7-9c1e-4486-b531-2a332a11838e")
+		(uuid "86157b58-1f1d-4817-be09-f65be912bdc1")
 	)
 	(wire
 		(pts
@@ -6762,16 +6601,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 36.83 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9597b4e3-44c2-4550-9971-f4b59dcbcaae")
-	)
-	(wire
-		(pts
 			(xy 135.89 105.41) (xy 135.89 114.3)
 		)
 		(stroke
@@ -6842,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 36.83) (xy 57.15 36.83)
+			(xy 49.53 38.1) (xy 59.69 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6942,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 21.59) (xy 46.99 21.59)
+			(xy 59.69 21.59) (xy 49.53 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7002,7 +6831,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 72.39) (xy 41.91 78.74)
+			(xy 50.8 72.39) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7012,7 +6841,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 78.74) (xy 41.91 78.74)
+			(xy 35.56 78.74) (xy 50.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7152,13 +6981,13 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 44.45) (xy 204.47 45.72)
+			(xy 17.78 69.85) (xy 26.67 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf6d1aa1-a25c-4dfd-97cd-d3b1a0bdc2d0")
+		(uuid "bf3ec77d-cafa-452d-813a-3036fed7d8d9")
 	)
 	(wire
 		(pts
@@ -7189,6 +7018,16 @@
 			(type default)
 		)
 		(uuid "c18a1d5c-a3df-4a3e-bb7f-f14e6cb50aa6")
+	)
+	(wire
+		(pts
+			(xy 36.83 38.1) (xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f69c13-1cde-410d-b270-a3f3899f548a")
 	)
 	(wire
 		(pts
@@ -7282,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 25.4) (xy 73.66 21.59)
+			(xy 76.2 25.4) (xy 76.2 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7312,7 +7151,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 53.34 72.39)
+			(xy 60.96 72.39) (xy 62.23 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7382,16 +7221,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 36.83) (xy 46.99 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da81f5f4-8b28-438a-b4c0-24d0422175d7")
-	)
-	(wire
-		(pts
 			(xy 139.7 38.1) (xy 139.7 41.91)
 		)
 		(stroke
@@ -7442,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 73.66 36.83)
+			(xy 76.2 33.02) (xy 76.2 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7529,6 +7358,16 @@
 			(type default)
 		)
 		(uuid "eaebe5fc-5d48-47c7-8044-1ad3a82c57b5")
+	)
+	(wire
+		(pts
+			(xy 17.78 78.74) (xy 26.67 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed79e0f0-8926-4dbe-851f-4bf5e4b6d95b")
 	)
 	(wire
 		(pts
@@ -7632,16 +7471,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 45.72) (xy 204.47 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f825f3aa-962e-4269-a6ef-6dec69e22ce8")
-	)
-	(wire
-		(pts
 			(xy 147.32 49.53) (xy 147.32 52.07)
 		)
 		(stroke
@@ -7682,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 21.59) (xy 67.31 21.59)
+			(xy 76.2 21.59) (xy 69.85 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7721,7 +7550,7 @@
 		(uuid "fd8bf92f-3014-4e69-be1e-4b54e3df452f")
 	)
 	(image
-		(at 30.988 171.704)
+		(at 151.638 -26.416)
 		(uuid "0de38334-f992-4bbc-ae2d-c7f92cc371e9")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAZ0AAAJKCAYAAAD3DJioAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
 			"eJzsvXmUpHV97/96nqqn9uqqrt5n6VmaGYbBYUQSCEoSBHOUMYjLzRgj8URNTiI5sng1yckJN8k5"
@@ -8935,7 +8764,7 @@
 		)
 	)
 	(image
-		(at 72.517 176.784)
+		(at 193.167 -21.336)
 		(scale 1.63116)
 		(uuid "7a79ab1a-79bf-4933-88f6-6d6065942fdb")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAVYAAAEaCAYAAABKNX+UAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -10552,6 +10381,438 @@
 			"YwpTmMJHFVPWbQpTmMIUzjH+f3px3jD2tuInAAAAAElFTkSuQmCC"
 		)
 	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 16.51 8.255 18.415 5.715)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "926c7199-465d-437b-aea5-3ba5d85be0d5")
+		(cells
+			(table_cell "Kolor"
+				(exclude_from_sim no)
+				(at 225.425 -18.415 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1a25fbcc-2265-4d3b-a3fb-7100dec9b93f")
+			)
+			(table_cell "[mA]"
+				(exclude_from_sim no)
+				(at 241.935 -18.415 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e507eb76-2be9-4c98-923f-c066b934b5d2")
+			)
+			(table_cell "Ilość segmentów"
+				(exclude_from_sim no)
+				(at 250.19 -18.415 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "000bf4cf-b390-46d1-a42a-8bd9a403692e")
+			)
+			(table_cell "[W]"
+				(exclude_from_sim no)
+				(at 268.605 -18.415 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c8d8004a-03ac-4dfa-b6cc-312298ceffee")
+			)
+			(table_cell "Biały"
+				(exclude_from_sim no)
+				(at 225.425 -15.875 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2035d47d-eba5-4669-beaa-f552d0278390")
+			)
+			(table_cell "360"
+				(exclude_from_sim no)
+				(at 241.935 -15.875 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "24988263-66c8-4417-95b5-3f72a8293acb")
+			)
+			(table_cell "29"
+				(exclude_from_sim no)
+				(at 250.19 -15.875 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ed84d378-bce1-4d00-a4eb-234a7d47b22a")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 268.605 -15.875 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0ffbf052-9d7f-4d2e-a4e0-d8755dc657fe")
+			)
+			(table_cell "Niebieski"
+				(exclude_from_sim no)
+				(at 225.425 -13.335 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e3df148c-dfc4-4b81-9ddb-70940d956517")
+			)
+			(table_cell "190"
+				(exclude_from_sim no)
+				(at 241.935 -13.335 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6d43a737-6ebc-427d-b990-e09121f5d158")
+			)
+			(table_cell "14"
+				(exclude_from_sim no)
+				(at 250.19 -13.335 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "598a9d2f-6070-4349-b079-893358a369dc")
+			)
+			(table_cell "2,1"
+				(exclude_from_sim no)
+				(at 268.605 -13.335 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a426d833-42b3-4fca-bc4b-5c66fd6913b9")
+			)
+			(table_cell "Pomarańczowy"
+				(exclude_from_sim no)
+				(at 225.425 -10.795 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "182e1771-35a1-4484-a9de-dec01fbd14e6")
+			)
+			(table_cell "230"
+				(exclude_from_sim no)
+				(at 241.935 -10.795 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "abc47f1b-e513-480c-b460-4aaabaf7891a")
+			)
+			(table_cell "16"
+				(exclude_from_sim no)
+				(at 250.19 -10.795 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cc29622f-6b08-4986-82b2-e805fa54cafb")
+			)
+			(table_cell "2,5"
+				(exclude_from_sim no)
+				(at 268.605 -10.795 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ee01848b-969f-493f-ad3a-ebb1604629fc")
+			)
+			(table_cell "Zielony"
+				(exclude_from_sim no)
+				(at 225.425 -8.255 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5b883fd2-6a11-40c3-8c63-4c01c9e22a92")
+			)
+			(table_cell "220"
+				(exclude_from_sim no)
+				(at 241.935 -8.255 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "37d471a0-5dae-41ce-8192-b1b55500711d")
+			)
+			(table_cell "16"
+				(exclude_from_sim no)
+				(at 250.19 -8.255 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf244725-915c-4333-9b3f-55a5040733f6")
+			)
+			(table_cell "2,5"
+				(exclude_from_sim no)
+				(at 268.605 -8.255 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7392449c-1e60-4613-b678-80812c14d322")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 225.425 -5.715 0)
+				(size 16.51 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "48373485-5365-4fef-a763-a1003497b550")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 241.935 -5.715 0)
+				(size 8.255 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d1684d23-162b-4c34-be0d-81db43f788fa")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 250.19 -5.715 0)
+				(size 18.415 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7f89f194-2367-40b8-afe5-7828e40060b1")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 268.605 -5.715 0)
+				(size 5.715 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b32637f4-fabc-48ae-a8e0-2efaec8ea766")
+			)
+		)
+	)
 	(label "Vref"
 		(at 105.41 160.02 270)
 		(effects
@@ -10643,7 +10904,7 @@
 		(uuid "983fc185-d843-491f-9ce9-0dc3dbb61456")
 	)
 	(label "Vref"
-		(at 53.34 72.39 0)
+		(at 62.23 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10778,7 +11039,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 87.63 15.24) (xy 96.52 15.24) (xy 96.52 43.18) (xy 87.63 43.18)
+				(xy 90.17 15.24) (xy 99.06 15.24) (xy 99.06 43.18) (xy 90.17 43.18)
 			)
 			(stroke
 				(width 0)
@@ -10835,7 +11096,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 71.12 15.24) (xy 80.01 15.24) (xy 80.01 43.18) (xy 71.12 43.18)
+				(xy 73.66 15.24) (xy 82.55 15.24) (xy 82.55 43.18) (xy 73.66 43.18)
 			)
 			(stroke
 				(width 0)
@@ -10851,7 +11112,6 @@
 		(length 2.54)
 		(shape round)
 		(at 212.09 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10860,7 +11120,7 @@
 		)
 		(uuid "17dc6858-f1f2-47bc-a597-38d71690d64e")
 		(property "Netclass" ""
-			(at -17.78 34.29 0)
+			(at -17.78 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10870,7 +11130,7 @@
 			)
 		)
 		(property "Component Class" "BASS"
-			(at 212.7885 34.29 0)
+			(at 212.7885 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10994,7 +11254,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 88.9 43.18 180)
+		(at 91.44 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11003,7 +11263,7 @@
 		)
 		(uuid "c0d510fd-5515-44f1-afdd-4165396256e7")
 		(property "Netclass" ""
-			(at 177.8 -134.62 90)
+			(at 180.34 -134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11013,7 +11273,7 @@
 			)
 		)
 		(property "Component Class" "TREBLE"
-			(at 88.9 46.482 90)
+			(at 91.44 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11030,7 +11290,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 72.39 43.18 180)
+		(at 74.93 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11039,7 +11299,7 @@
 		)
 		(uuid "e5d31b4d-a125-4558-a511-f1cf3fa15b42")
 		(property "Netclass" ""
-			(at 76.2 -144.78 90)
+			(at 78.74 -144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11049,7 +11309,7 @@
 			)
 		)
 		(property "Component Class" "BASS"
-			(at 72.39 46.482 90)
+			(at 74.93 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11137,7 +11397,7 @@
 			(uuid "2d342ad3-27e5-41f4-b7f1-44eab07d238b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP3")
 					(unit 1)
@@ -11146,119 +11406,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD140")
-		(at 209.55 45.72 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05fe5a67-4160-4ace-88bc-1fa67406d234")
-		(property "Reference" "Q4"
-			(at 214.63 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 214.63 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 214.63 43.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 209.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 209.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 209.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 209.55 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17f49349-db7c-4268-b3f5-163ce0ed7d61")
-		)
-		(pin "2"
-			(uuid "92aedeba-780d-4a58-9252-bad8612533d8")
-		)
-		(pin "3"
-			(uuid "36ddd6fd-c1fc-4740-916a-d0fc80170fc7")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 83.82 21.59 0)
+		(at 86.36 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11269,7 +11418,7 @@
 		(fields_autoplaced yes)
 		(uuid "061b45d3-d224-4631-836a-8e168e67efda")
 		(property "Reference" "#PWR09"
-			(at 83.82 25.4 0)
+			(at 86.36 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11280,7 +11429,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 83.82 16.51 0)
+			(at 86.36 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11290,7 +11439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 21.59 0)
+			(at 86.36 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 21.59 0)
+			(at 86.36 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11312,7 +11461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 21.59 0)
+			(at 86.36 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11326,7 +11475,7 @@
 			(uuid "57350f5b-8b59-4155-8eee-844e8d9c4572")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR09")
 					(unit 1)
@@ -11408,7 +11557,7 @@
 			(uuid "ec18dc29-ae13-4152-a712-00ead644d940")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP9")
 					(unit 1)
@@ -11417,20 +11566,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Graphic:SYM_Arrow45_Normal")
-		(at 170.18 72.39 90)
+		(lib_id "Device:C")
+		(at 135.89 146.05 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11fd3cee-a857-428f-9153-3be8eb5e60a2")
-		(property "Reference" "#SYM2"
-			(at 168.91 68.58 0)
-			(hide yes)
+		(uuid "10ee8961-9b75-43ed-bac6-c8408d72ce1d")
+		(property "Reference" "C13"
+			(at 135.89 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11439,9 +11586,8 @@
 				)
 			)
 		)
-		(property "Value" "SYM_Arrow45_Normal"
-			(at 172.72 72.39 0)
-			(hide yes)
+		(property "Value" "680p"
+			(at 135.89 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11450,8 +11596,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 170.18 72.39 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 132.08 147.0152 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11462,7 +11608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 72.39 0)
+			(at 135.89 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,8 +11618,8 @@
 				)
 			)
 		)
-		(property "Description" "Filled 45° arrow, 200mil"
-			(at 170.18 72.39 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11482,11 +11628,17 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "bbff3a80-b63b-4816-8596-88a804426757")
+		)
+		(pin "1"
+			(uuid "c40b1263-e675-4c1e-acb5-877c63107440")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "#SYM2")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11494,7 +11646,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 85.09 92.71 270)
+		(at 85.09 92.71 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11504,7 +11657,7 @@
 		(dnp no)
 		(uuid "12a027c7-9c03-40f9-8d94-6aee9e92545c")
 		(property "Reference" "RV1"
-			(at 79.248 91.694 90)
+			(at 78.994 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11514,7 +11667,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 91.44 91.694 90)
+			(at 91.694 91.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11599,7 +11752,7 @@
 			(uuid "f3908edb-f0c3-4c4e-a258-ab59ad455724")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV1")
 					(unit 1)
@@ -11680,7 +11833,7 @@
 			(uuid "154ba450-805d-43f3-8df6-b36071834056")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R21")
 					(unit 1)
@@ -11761,7 +11914,7 @@
 			(uuid "c424b0c3-bc78-411a-857c-3a781e572e7c")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R19")
 					(unit 1)
@@ -11771,7 +11924,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 194.31 0)
+		(at 50.8 -2.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11782,7 +11935,7 @@
 		(fields_autoplaced yes)
 		(uuid "14a44e7a-90a7-497b-9f74-e082fddfce5e")
 		(property "Reference" "H4"
-			(at 147.32 193.0399 0)
+			(at 53.34 -3.8101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11793,7 +11946,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 195.5799 0)
+			(at 53.34 -1.2701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11803,8 +11956,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 144.78 194.31 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 50.8 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +11968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 194.31 0)
+			(at 50.8 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +11979,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 194.31 0)
+			(at 50.8 -2.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11837,7 +11990,7 @@
 			)
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "H4")
 					(unit 1)
@@ -11866,7 +12019,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "56k"
 			(at 119.38 52.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11916,7 +12069,7 @@
 			(uuid "51d927df-ac4e-41bf-b4d7-fecb14a75b5c")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R7")
 					(unit 1)
@@ -11995,7 +12148,7 @@
 			(uuid "09e2ffa0-bd1b-456e-a9bd-ed225b1506f7")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R4")
 					(unit 1)
@@ -12073,7 +12226,7 @@
 			(uuid "331fd865-c43f-43c8-b8aa-e34b5f74ab94")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR013")
 					(unit 1)
@@ -12154,7 +12307,7 @@
 			(uuid "822a0d20-b452-47d0-a73b-b42a53c5a01b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C14")
 					(unit 1)
@@ -12232,88 +12385,9 @@
 			(uuid "bb9c2541-5f9e-4d7c-8ede-0a9464f367c9")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 146.05 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "243f9499-6ef4-4894-b9c7-2546ddb8227b")
-		(property "Reference" "C13"
-			(at 135.89 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22n"
-			(at 135.89 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 132.08 147.0152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "52750a21-a474-420f-bd8a-a09e46ba8731")
-		)
-		(pin "1"
-			(uuid "7e66df46-73b0-4566-9889-b37d9986a359")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12393,7 +12467,7 @@
 			(uuid "feabe6b6-411a-48d4-8ebb-85bb1cade4a0")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP7")
 					(unit 1)
@@ -12423,7 +12497,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "4,7n"
 			(at 135.89 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12473,7 +12547,7 @@
 			(uuid "3aae8111-a396-4206-8c2b-e118b02017f0")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C10")
 					(unit 1)
@@ -12552,7 +12626,7 @@
 			(uuid "c36f3d5a-b632-4a51-8154-4af6f3bb5612")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R27")
 					(unit 1)
@@ -12562,7 +12636,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 67.31 21.59 0)
+		(at 69.85 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12573,7 +12647,7 @@
 		(fields_autoplaced yes)
 		(uuid "32716816-5e16-4cd8-9b9a-bca45cbfa08e")
 		(property "Reference" "#PWR06"
-			(at 67.31 25.4 0)
+			(at 69.85 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12584,7 +12658,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 67.31 16.51 0)
+			(at 69.85 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12594,7 +12668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 21.59 0)
+			(at 69.85 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12605,7 +12679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 21.59 0)
+			(at 69.85 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12616,7 +12690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 67.31 21.59 0)
+			(at 69.85 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12630,7 +12704,7 @@
 			(uuid "5d69f5f6-ee20-467d-80d2-3f8cf21ba174")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR06")
 					(unit 1)
@@ -12639,118 +12713,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BD140")
-		(at 209.55 91.44 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "356610bd-dfc0-4afe-a6c0-f4ec3ad2af35")
-		(property "Reference" "Q5"
-			(at 214.63 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 214.63 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 214.63 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 209.55 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 209.55 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 209.55 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 209.55 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1815d739-9df9-4e2b-88bd-e539ad879594")
-		)
-		(pin "2"
-			(uuid "1b9db7be-0ec2-4116-a9f6-2ba6e932fbc7")
-		)
-		(pin "3"
-			(uuid "6d5c0635-c13e-404a-845e-c14c249dee7f")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 57.15 36.83 0)
+		(at 59.69 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12761,7 +12725,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a0eab5b-a538-4c30-a556-83971a6eeacc")
 		(property "Reference" "#PWR05"
-			(at 57.15 43.18 0)
+			(at 59.69 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12772,7 +12736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 41.91 0)
+			(at 59.69 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12782,7 +12746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +12757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +12768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12818,9 +12782,97 @@
 			(uuid "dbb4a78b-bc77-4a9e-9b75-ef27be965842")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDN340P")
+		(at 209.55 91.44 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a2522a9-1d13-4f3e-b470-3c92cfd92909")
+		(property "Reference" "Q5"
+			(at 215.9 92.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV65XP"
+			(at 215.9 90.1701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 214.63 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV65XP.pdf"
+			(at 214.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.3A Id, -20V Vds, P-Channel MOSFET, 74mOhm Ron, SOT-23"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5ddad09-74a9-43d5-a935-96e5eed004c1")
+		)
+		(pin "3"
+			(uuid "e7a5001a-36ed-4740-baa5-66e5ea59de58")
+		)
+		(pin "2"
+			(uuid "bb117b5e-ea23-4b5c-bc84-7b0baf0207fe")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -12897,7 +12949,7 @@
 			(uuid "3ecb670d-8d08-4675-913d-2aef298d87c4")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R5")
 					(unit 1)
@@ -12907,7 +12959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 36.83 29.21 0)
+		(at 41.91 29.21 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12918,7 +12970,7 @@
 		(dnp no)
 		(uuid "43eaf76d-7f27-4859-915e-370fd3c384a3")
 		(property "Reference" "C1"
-			(at 43.18 29.21 90)
+			(at 43.434 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12928,7 +12980,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 40.894 29.21 90)
+			(at 44.196 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12938,7 +12990,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 35.8648 33.02 0)
+			(at 40.9448 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12949,7 +13001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 29.21 0)
+			(at 41.91 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12960,7 +13012,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 36.83 29.21 0)
+			(at 41.91 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12977,7 +13029,7 @@
 			(uuid "68ac6640-f20c-4dc5-ad0f-ae11ae37270e")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C1")
 					(unit 1)
@@ -13095,7 +13147,7 @@
 			(uuid "7a4f34e0-91d8-418d-b787-c7528486afd1")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV4")
 					(unit 1)
@@ -13205,7 +13257,7 @@
 			(uuid "13566466-c140-4109-9f4c-28c12a2fc515")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "Q1")
 					(unit 1)
@@ -13234,7 +13286,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "27k"
 			(at 119.38 143.764 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13284,7 +13336,7 @@
 			(uuid "fcf00437-c20e-40d1-906c-56a0702b5a0b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R9")
 					(unit 1)
@@ -13385,7 +13437,7 @@
 			(uuid "9a5c15e0-7f3e-451e-8122-8bec91a340ec")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D3")
 					(unit 1)
@@ -13416,7 +13468,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 181.61 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13467,7 +13519,7 @@
 			(uuid "eeff49ef-3dc2-4546-8817-64b6b6989999")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C17")
 					(unit 1)
@@ -13546,7 +13598,7 @@
 			(uuid "27711dbb-017c-4788-b9d2-c824c621a665")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R26")
 					(unit 1)
@@ -13577,7 +13629,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "1M"
 			(at 143.51 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13628,7 +13680,7 @@
 			(uuid "86e232f5-bb34-496c-b7dc-4255d0f9beff")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R13")
 					(unit 1)
@@ -13708,7 +13760,7 @@
 			(uuid "24edaf98-0b57-4cb5-9b5b-5ff162ddf7ca")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R6")
 					(unit 1)
@@ -13791,7 +13843,7 @@
 			(uuid "26257c3f-e23a-468c-95e9-5b1fe75dc28d")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "J2")
 					(unit 1)
@@ -13820,7 +13872,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "15k"
 			(at 119.38 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13870,7 +13922,7 @@
 			(uuid "cb2c46dc-f145-4827-b84e-5db0ef94d048")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R8")
 					(unit 1)
@@ -13952,7 +14004,7 @@
 			(uuid "314ddb1f-5db5-40df-b03a-bb7ec13174fd")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP4")
 					(unit 1)
@@ -14062,7 +14114,7 @@
 			(uuid "3e748966-1a2c-4b8e-919d-d1b1281f2adf")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "Q2")
 					(unit 1)
@@ -14144,7 +14196,7 @@
 			(uuid "f78a5777-ea57-4ca1-ab88-534491033102")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP6")
 					(unit 1)
@@ -14222,7 +14274,7 @@
 			(uuid "4eca2c6e-56b5-497e-be99-a0cdfc72b05b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR01")
 					(unit 1)
@@ -14304,7 +14356,7 @@
 			(uuid "be62c95b-38aa-487d-a75d-8cdd5bf3b0ea")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP12")
 					(unit 1)
@@ -14314,7 +14366,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 64.77 29.21 0)
+		(at 67.31 29.21 0)
 		(mirror y)
 		(unit 3)
 		(body_style 1)
@@ -14325,7 +14377,7 @@
 		(dnp no)
 		(uuid "581c0f3a-fa8f-4617-907e-0a8be9ea737e")
 		(property "Reference" "U2"
-			(at 68.58 23.876 0)
+			(at 71.12 23.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14336,7 +14388,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 69.596 20.32 0)
+			(at 72.136 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14347,7 +14399,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14358,7 +14410,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MSLD/ProductDocuments/DataSheets/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14369,7 +14421,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 64.77 29.21 0)
+			(at 67.31 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14404,7 +14456,7 @@
 			(uuid "8fa6a7e2-0ad8-4d12-8ae3-906fc037f592")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U2")
 					(unit 3)
@@ -14486,7 +14538,7 @@
 			(uuid "334a306c-11b1-403a-b99c-902b0b5f0057")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R17")
 					(unit 1)
@@ -14588,7 +14640,7 @@
 			(uuid "b9ea26f6-c28a-4c94-9f83-99121cdd8c29")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D1")
 					(unit 1)
@@ -14666,7 +14718,7 @@
 			(uuid "4ef254c1-1118-4252-a6de-30765e24269a")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR012")
 					(unit 1)
@@ -14676,7 +14728,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 189.23 0)
+		(at 50.8 -7.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14687,7 +14739,7 @@
 		(fields_autoplaced yes)
 		(uuid "609a0b04-41e6-43a7-9b3f-2d2629dd4dd5")
 		(property "Reference" "H3"
-			(at 147.32 187.9599 0)
+			(at 53.34 -8.8901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14698,7 +14750,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 190.4999 0)
+			(at 53.34 -6.3501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14708,8 +14760,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 144.78 189.23 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 50.8 -7.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14720,7 +14772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 189.23 0)
+			(at 50.8 -7.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14731,7 +14783,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 189.23 0)
+			(at 50.8 -7.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14742,7 +14794,7 @@
 			)
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "H3")
 					(unit 1)
@@ -14773,7 +14825,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "200k"
 			(at 102.87 53.3401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14860,7 +14912,7 @@
 			(uuid "9ec7134c-ed67-4fc3-9209-3b5d9f40dfd8")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV2")
 					(unit 1)
@@ -14891,7 +14943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "220k"
 			(at 143.51 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14942,7 +14994,7 @@
 			(uuid "b201585c-5b5b-4f6a-aa06-74768a729e87")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R14")
 					(unit 1)
@@ -15024,7 +15076,7 @@
 			(uuid "1e4b8648-8bfd-474d-91b5-e82c2f28b9e6")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R10")
 					(unit 1)
@@ -15102,7 +15154,7 @@
 			(uuid "54d5c81d-2748-4ddd-b70d-fc54781bd366")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR016")
 					(unit 1)
@@ -15133,7 +15185,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "200k"
 			(at 102.87 99.0601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15220,7 +15272,7 @@
 			(uuid "3e30acac-bff4-4d08-8b0f-d32fda13709f")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV3")
 					(unit 1)
@@ -15298,7 +15350,7 @@
 			(uuid "8455070a-8da4-4b57-a31b-a5adc3a89627")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR03")
 					(unit 1)
@@ -15308,7 +15360,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 29.21 180)
+		(at 49.53 29.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15316,10 +15368,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f616267-d781-4cf5-8d24-07880cda2b47")
 		(property "Reference" "C2"
-			(at 50.8 27.9399 0)
+			(at 50.292 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15330,7 +15381,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 50.8 30.4799 0)
+			(at 50.292 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15341,7 +15392,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 46.0248 25.4 0)
+			(at 48.5648 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15352,7 +15403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 29.21 0)
+			(at 49.53 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15414,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 29.21 0)
+			(at 49.53 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15380,7 +15431,7 @@
 			(uuid "a59e8068-56b6-46fb-aba7-43453425e27e")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C2")
 					(unit 1)
@@ -15390,7 +15441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 36.83 0)
+		(at 69.85 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15401,7 +15452,7 @@
 		(fields_autoplaced yes)
 		(uuid "720a0271-320b-494d-9dce-d5ea8beda178")
 		(property "Reference" "#PWR07"
-			(at 67.31 43.18 0)
+			(at 69.85 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +15463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 41.91 0)
+			(at 69.85 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15422,7 +15473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 36.83 0)
+			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15433,7 +15484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 36.83 0)
+			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15444,7 +15495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 36.83 0)
+			(at 69.85 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15458,7 +15509,7 @@
 			(uuid "a78ea7c3-dc87-4782-87e2-01e47104b711")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR07")
 					(unit 1)
@@ -15468,7 +15519,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 57.15 21.59 0)
+		(at 59.69 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15479,7 +15530,7 @@
 		(fields_autoplaced yes)
 		(uuid "736ea326-28cb-41b8-be7a-b3841a2da0a4")
 		(property "Reference" "#PWR04"
-			(at 57.15 25.4 0)
+			(at 59.69 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15490,7 +15541,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 57.15 16.51 0)
+			(at 59.69 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15500,7 +15551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15511,7 +15562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15522,7 +15573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15536,7 +15587,7 @@
 			(uuid "ad009178-2b43-4f0b-a0f6-7d662ff795da")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR04")
 					(unit 1)
@@ -15546,7 +15597,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90.17 29.21 0)
+		(at 92.71 29.21 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15557,7 +15608,7 @@
 		(dnp no)
 		(uuid "73f096e5-9f8d-4518-a2ef-137bd809a25c")
 		(property "Reference" "C7"
-			(at 93.218 26.924 0)
+			(at 95.758 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15568,7 +15619,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 95.504 31.242 0)
+			(at 98.044 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15579,7 +15630,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 91.1352 25.4 0)
+			(at 93.6752 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15590,7 +15641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 29.21 0)
+			(at 92.71 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15652,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 90.17 29.21 0)
+			(at 92.71 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15618,7 +15669,7 @@
 			(uuid "019f011e-e122-4ead-9228-edb715329f00")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C7")
 					(unit 1)
@@ -15699,7 +15750,7 @@
 			(uuid "c4bd0b1d-4d12-48f7-af6e-590d8b6eaea6")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C15")
 					(unit 1)
@@ -15730,7 +15781,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 181.61 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15781,7 +15832,7 @@
 			(uuid "cfa28eab-766f-453e-b75f-aece3705bd7a")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C18")
 					(unit 1)
@@ -15891,7 +15942,7 @@
 			(uuid "e7edabb7-73c4-4c1c-bf95-22fcfc4dc0cf")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "Q3")
 					(unit 1)
@@ -15900,8 +15951,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 26.67 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cb26456-ba18-4145-861b-5b92bb6a8749")
+		(property "Reference" "C20"
+			(at 28.956 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 28.956 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 25.7048 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 26.67 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "078a1bbc-f4c9-4243-9508-33b94ff046be")
+		)
+		(pin "1"
+			(uuid "d5533c72-11eb-4273-b5ac-0da20e32b962")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 59.69 29.21 0)
+		(at 62.23 29.21 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15911,7 +16043,7 @@
 		(dnp no)
 		(uuid "7d792e3f-a84c-4551-8e4c-0a940cdf4869")
 		(property "Reference" "U1"
-			(at 58.928 30.48 0)
+			(at 61.468 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15922,7 +16054,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 57.912 28.702 0)
+			(at 60.452 28.702 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15933,7 +16065,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 59.69 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15944,7 +16076,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 59.69 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15955,7 +16087,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 59.69 29.21 0)
+			(at 62.23 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15990,7 +16122,7 @@
 			(uuid "45375b5b-151a-47e8-ab24-9c217deda560")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U1")
 					(unit 3)
@@ -16068,7 +16200,7 @@
 			(uuid "187d980b-a06a-4ba1-aa14-4172d6e30606")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR014")
 					(unit 1)
@@ -16146,9 +16278,91 @@
 			(uuid "6d97bf41-9c0b-4624-8139-fa83ec012a93")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 33.02 44.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80e0829b-2646-4c84-b247-af8c05a3f3a6")
+		(property "Reference" "TP16"
+			(at 29.464 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" ""
+			(at 33.0201 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "My_Library:PinHeader_1x02_P2.54mm_Vertical_Hand_Solder"
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 33.02 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1c9e339-2aaa-4efc-9ebf-eb90867a801e")
+		)
+		(pin "1"
+			(uuid "92b94a95-3a74-40da-9570-b5fb2299eb78")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "TP16")
 					(unit 1)
 				)
 			)
@@ -16244,7 +16458,7 @@
 			(uuid "8fa6a7e2-0ad8-4d12-8ae3-906fc037f593")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U2")
 					(unit 2)
@@ -16274,7 +16488,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "680p"
 			(at 135.89 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16324,7 +16538,7 @@
 			(uuid "42308b16-8047-4746-adac-7c77b8306ff4")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C12")
 					(unit 1)
@@ -16334,7 +16548,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 184.15 0)
+		(at 50.8 -12.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16345,7 +16559,7 @@
 		(fields_autoplaced yes)
 		(uuid "88930821-c2a0-465b-b861-9cdcb1e90c95")
 		(property "Reference" "H2"
-			(at 147.32 182.8799 0)
+			(at 53.34 -13.9701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16356,7 +16570,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 185.4199 0)
+			(at 53.34 -11.4301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16366,8 +16580,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 144.78 184.15 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 50.8 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16378,7 +16592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 184.15 0)
+			(at 50.8 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16389,7 +16603,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 184.15 0)
+			(at 50.8 -12.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16400,7 +16614,7 @@
 			)
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "H2")
 					(unit 1)
@@ -16518,7 +16732,7 @@
 			(uuid "134d5673-7e4c-4d5f-98af-f800fc6b9f9b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV7")
 					(unit 1)
@@ -16528,7 +16742,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 44.45 58.42 0)
+		(at 53.34 58.42 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16538,7 +16752,7 @@
 		(dnp no)
 		(uuid "89d20972-e775-47b0-88de-60315276fb37")
 		(property "Reference" "U1"
-			(at 42.926 56.896 0)
+			(at 51.816 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16548,7 +16762,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 42.926 59.436 0)
+			(at 51.816 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16558,7 +16772,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 44.45 58.42 0)
+			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16569,7 +16783,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 44.45 58.42 0)
+			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16580,7 +16794,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 44.45 58.42 0)
+			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16615,7 +16829,7 @@
 			(uuid "85f8a926-d7be-436d-a32d-148149131fa9")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U1")
 					(unit 2)
@@ -16881,7 +17095,7 @@
 			(uuid "e3f82a29-2881-4aa6-9f54-5ff52d1eccd9")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "J3")
 					(unit 1)
@@ -16891,7 +17105,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 36.83 0)
+		(at 86.36 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16902,7 +17116,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f303829-a8ca-457f-9451-825288bb7522")
 		(property "Reference" "#PWR010"
-			(at 83.82 43.18 0)
+			(at 86.36 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16913,7 +17127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 41.91 0)
+			(at 86.36 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16923,7 +17137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 36.83 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16934,7 +17148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 36.83 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +17159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 36.83 0)
+			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16959,7 +17173,7 @@
 			(uuid "ccd92e21-41b2-4c86-bbf7-4e4e2498d131")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR010")
 					(unit 1)
@@ -17038,7 +17252,7 @@
 			(uuid "70e413eb-70b9-40f1-9b56-d82ea909efac")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C9")
 					(unit 1)
@@ -17121,7 +17335,7 @@
 			(uuid "bd99f585-a552-4a6a-91d6-247499cf3179")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP14")
 					(unit 1)
@@ -17202,7 +17416,7 @@
 			(uuid "fe690fb9-d4cb-4520-bb7f-48e08128157f")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C4")
 					(unit 1)
@@ -17285,7 +17499,7 @@
 			(uuid "6becc973-2a38-4e02-a618-05ceb9237d78")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP13")
 					(unit 1)
@@ -17303,10 +17517,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95457d9d-e150-4aff-b54c-35e3363b86be")
 		(property "Reference" "D4"
-			(at 227.076 45.72 0)
+			(at 227.076 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17316,7 +17529,7 @@
 			)
 		)
 		(property "Value" "LED_Series"
-			(at 227.076 48.26 0)
+			(at 227.076 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17365,7 +17578,7 @@
 			(uuid "e5ca5df0-214b-440b-a91d-8e0e3c7fd09a")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D4")
 					(unit 1)
@@ -17445,7 +17658,7 @@
 			(uuid "2d863929-9939-4dbb-bcb9-7d45d3d7669b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C6")
 					(unit 1)
@@ -17711,7 +17924,7 @@
 			(uuid "7cfd5212-e424-40b2-8166-c8e602c8cf6a")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "J4")
 					(unit 1)
@@ -17809,7 +18022,7 @@
 			(uuid "8fa6a7e2-0ad8-4d12-8ae3-906fc037f594")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U2")
 					(unit 1)
@@ -17819,7 +18032,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 57.15 36.83 270)
+		(at 59.69 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17830,7 +18043,7 @@
 		(fields_autoplaced yes)
 		(uuid "a29474f9-3225-4d47-82a6-12bfcbb21698")
 		(property "Reference" "#FLG02"
-			(at 59.055 36.83 0)
+			(at 61.595 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17841,7 +18054,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 36.8301 90)
+			(at 63.5 38.1001 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17853,7 +18066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17864,7 +18077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17875,7 +18088,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 57.15 36.83 0)
+			(at 59.69 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17889,7 +18102,7 @@
 			(uuid "4d662b68-f624-4145-ac48-5026221a92c4")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#FLG02")
 					(unit 1)
@@ -17907,10 +18120,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a2abeb5b-3405-42d9-9b03-bbb2a3ab6385")
 		(property "Reference" "D5"
-			(at 227.076 91.44 0)
+			(at 227.076 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17920,7 +18132,7 @@
 			)
 		)
 		(property "Value" "LED_Series"
-			(at 227.076 93.98 0)
+			(at 227.076 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17969,96 +18181,9 @@
 			(uuid "e151a5ad-d94f-4025-a155-fd4703de9787")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Graphic:SYM_EasterEgg_42x60mm")
-		(at 389.89 275.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3f0209d-04b0-45f7-b1fb-1f4a619925ec")
-		(property "Reference" "SYM1"
-			(at 389.89 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SYM_EasterEgg_42x60mm"
-			(at 389.89 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Symbol:KiCad-Logo2_8mm_Copper"
-			(at 389.89 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2013:347:0671:0854:de:PDF"
-			(at 389.89 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "EasterEgg, ClassA, Medium Size"
-			(at 389.89 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 389.89 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "SYM1")
 					(unit 1)
 				)
 			)
@@ -18322,7 +18447,7 @@
 			(uuid "9c815ba7-0a46-4062-9bae-b5ee36b1a138")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "J5")
 					(unit 1)
@@ -18403,7 +18528,7 @@
 			(uuid "d4f7fadb-d237-4332-912a-9e6aa3c4aa98")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R1")
 					(unit 1)
@@ -18521,7 +18646,7 @@
 			(uuid "225d6952-c530-49d6-96ec-42a3746a1cbb")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV5")
 					(unit 1)
@@ -18603,7 +18728,7 @@
 			(uuid "7f43215a-cb54-4b68-acd8-acf6a0994ef4")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP2")
 					(unit 1)
@@ -18685,9 +18810,97 @@
 			(uuid "61526a4f-1215-4ca4-afe8-121421e28e18")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDN340P")
+		(at 209.55 137.16 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa109f53-7ead-437d-a36b-bcc050da9007")
+		(property "Reference" "Q6"
+			(at 215.9 138.4301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV65XP"
+			(at 215.9 135.8901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 214.63 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV65XP.pdf"
+			(at 214.63 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.3A Id, -20V Vds, P-Channel MOSFET, 74mOhm Ron, SOT-23"
+			(at 209.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db984d56-865d-4a43-84c9-eeea4043efd9")
+		)
+		(pin "3"
+			(uuid "06ec9b8c-d6cd-4ac7-a518-45610f459074")
+		)
+		(pin "2"
+			(uuid "6033ea07-659a-4164-9c4c-80739974e3d9")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -18767,7 +18980,7 @@
 			(uuid "1b59c73a-a4c5-4deb-9e83-3de032b9c39d")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R18")
 					(unit 1)
@@ -18798,7 +19011,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "510k"
+		(property "Value" "470k"
 			(at 143.51 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18849,7 +19062,7 @@
 			(uuid "e1571bf8-0641-4c3d-8808-657a2be80362")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R15")
 					(unit 1)
@@ -18931,120 +19144,9 @@
 			(uuid "9ba87080-3cf6-4430-b619-ad60313e3560")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BD140")
-		(at 209.55 137.16 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b537b4e8-2a34-4893-a850-1e3b3742a21f")
-		(property "Reference" "Q6"
-			(at 214.63 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BD140"
-			(at 214.63 138.4299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 214.63 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 209.55 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "122f244c-257a-41bb-95ae-8941c5fb078b")
-		)
-		(pin "2"
-			(uuid "97f6b514-1606-4b4b-99bf-e4dd6945b65f")
-		)
-		(pin "3"
-			(uuid "aa7aa381-1f16-40ae-b18d-ac6406ecec09")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -19071,7 +19173,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "4,7n"
 			(at 135.89 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19121,7 +19223,7 @@
 			(uuid "a5cb66ee-dd12-4b59-b6d4-37c15c8241b2")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C11")
 					(unit 1)
@@ -19199,90 +19301,9 @@
 			(uuid "365b8fbc-1b54-492e-8380-3203e4eee6cb")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 142.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba32f4cf-7735-4599-a34e-7cc386d81a4d")
-		(property "Reference" "R24"
-			(at 199.136 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 199.136 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 206.248 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97810225-4926-4dbc-8daf-555db10bbcf1")
-		)
-		(pin "2"
-			(uuid "13520ea7-3246-4b05-8d96-ca0ff1787f39")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -19362,90 +19383,9 @@
 			(uuid "d1ba1bb3-af68-4834-a0a9-72ebfea4f952")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bed0f5aa-af20-4086-9e18-3d35a702c173")
-		(property "Reference" "R20"
-			(at 199.136 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 199.136 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 206.248 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c164c28-ebbe-424d-a842-62d8eaead204")
-		)
-		(pin "2"
-			(uuid "7b0abd92-8251-4ddd-8fb9-457559026231")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -19526,7 +19466,7 @@
 			(uuid "229a9dd9-d348-4e94-9de8-aea3ccc2e9d5")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP15")
 					(unit 1)
@@ -19536,7 +19476,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:MCP6002-xP")
-		(at 81.28 29.21 0)
+		(at 83.82 29.21 0)
 		(mirror y)
 		(unit 3)
 		(body_style 1)
@@ -19547,7 +19487,7 @@
 		(dnp no)
 		(uuid "c3ab5803-c0b9-4d49-af5e-cbd02259ca82")
 		(property "Reference" "U3"
-			(at 85.09 24.13 0)
+			(at 87.63 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19558,7 +19498,7 @@
 			)
 		)
 		(property "Value" "MCP6002-xP"
-			(at 85.344 28.194 0)
+			(at 87.884 28.194 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19570,7 +19510,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 81.28 29.21 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19581,7 +19521,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
-			(at 81.28 29.21 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19592,7 +19532,7 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, DIP-8"
-			(at 81.28 29.21 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19627,7 +19567,7 @@
 			(uuid "fe2d21e8-acd9-43a4-a6d3-a9bf93d55cd2")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U3")
 					(unit 3)
@@ -19709,7 +19649,7 @@
 			(uuid "4af8f6e4-20f7-4461-a728-f5eafdae083d")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP11")
 					(unit 1)
@@ -19788,7 +19728,7 @@
 			(uuid "f99ca268-c2e8-4cc6-8b67-30eb44b2ef36")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R25")
 					(unit 1)
@@ -19868,7 +19808,7 @@
 			(uuid "fccb5f8d-cdad-456b-9df3-d69304938c7f")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C8")
 					(unit 1)
@@ -19950,7 +19890,7 @@
 			(uuid "9e1046c8-40b1-48b3-bc51-9f95e8b2c2e9")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R16")
 					(unit 1)
@@ -19960,7 +19900,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 29.21 0)
+		(at 76.2 29.21 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19971,7 +19911,7 @@
 		(dnp no)
 		(uuid "cd5d2111-9eca-468a-a14b-4038f559d551")
 		(property "Reference" "C5"
-			(at 76.708 26.924 0)
+			(at 79.248 26.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19982,7 +19922,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 78.994 31.242 0)
+			(at 81.534 31.242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19993,7 +19933,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 74.6252 25.4 0)
+			(at 77.1652 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20004,7 +19944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 29.21 0)
+			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20015,7 +19955,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 29.21 0)
+			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20032,7 +19972,7 @@
 			(uuid "e19c9ef7-bf94-4c93-83bb-afa626cbe70b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C5")
 					(unit 1)
@@ -20042,7 +19982,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 144.78 179.07 0)
+		(at 50.8 -17.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20053,7 +19993,7 @@
 		(fields_autoplaced yes)
 		(uuid "cddea2d0-4314-44ef-9e8b-d87c34de8e2d")
 		(property "Reference" "H1"
-			(at 147.32 177.7999 0)
+			(at 53.34 -19.0501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20064,7 +20004,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 147.32 180.3399 0)
+			(at 53.34 -16.5101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20074,8 +20014,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopBottom"
-			(at 144.78 179.07 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom"
+			(at 50.8 -17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20086,7 +20026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 179.07 0)
+			(at 50.8 -17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20097,7 +20037,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 144.78 179.07 0)
+			(at 50.8 -17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20108,7 +20048,7 @@
 			)
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "H1")
 					(unit 1)
@@ -20186,7 +20126,7 @@
 			(uuid "3e2c2e0d-5735-4eeb-9ce2-70c4c4ca6582")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR015")
 					(unit 1)
@@ -20204,10 +20144,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ceac9af3-ec4d-4c35-8d76-000afa2287fe")
 		(property "Reference" "D6"
-			(at 227.076 137.16 0)
+			(at 227.076 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20217,7 +20156,7 @@
 			)
 		)
 		(property "Value" "LED_Series"
-			(at 227.076 139.7 0)
+			(at 227.076 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20266,7 +20205,7 @@
 			(uuid "5c78d0c6-0d17-44f3-acc7-c4275c9bc803")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D6")
 					(unit 1)
@@ -20276,7 +20215,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 48.26 72.39 270)
+		(at 57.15 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20286,7 +20225,7 @@
 		(dnp no)
 		(uuid "cf2692f5-6764-4acb-af69-0214f7f6608d")
 		(property "Reference" "R3"
-			(at 48.26 70.104 90)
+			(at 57.15 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20296,7 +20235,7 @@
 			)
 		)
 		(property "Value" "0/10"
-			(at 48.26 67.564 90)
+			(at 57.15 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20306,7 +20245,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 48.26 70.612 90)
+			(at 57.15 70.612 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20317,7 +20256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 72.39 0)
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20328,7 +20267,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 72.39 0)
+			(at 57.15 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20345,9 +20284,91 @@
 			(uuid "dd40fd3f-1571-48a1-8c8c-44c3e83c08d7")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 25.4 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d017f4f7-97a0-4f8b-884f-b112908a2ca7")
+		(property "Reference" "R28"
+			(at 35.56 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1,8k"
+			(at 35.56 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 35.052 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c44919de-685a-4f29-8faf-cd848302aa8a")
+		)
+		(pin "2"
+			(uuid "58041186-c0db-45ab-8e7d-bd8e2139435c")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -20425,9 +20446,189 @@
 			(uuid "39114e70-3c18-4cee-bb97-612eb203c15e")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 36.83 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d6e6f15a-8d8a-485a-8a7f-2abc8ee1cd11")
+		(property "Reference" "D7"
+			(at 32.258 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 32.258 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 36.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afc88f8b-727f-4d27-b26f-a9a665170120")
+		)
+		(pin "2"
+			(uuid "fcac077a-9337-4f55-a3d5-a1add2bc05d5")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:FDN340P")
+		(at 209.55 45.72 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d730941e-1059-4943-bce6-58452014e2ba")
+		(property "Reference" "Q4"
+			(at 215.9 46.9901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PMV65XP"
+			(at 215.9 44.4501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+			(at 214.63 43.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV65XP.pdf"
+			(at 214.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.3A Id, -20V Vds, P-Channel MOSFET, 74mOhm Ron, SOT-23"
+			(at 209.55 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68d4e275-37f5-48fc-87e6-33e3762060c5")
+		)
+		(pin "3"
+			(uuid "5254f07c-76b2-45fe-be3f-e17071920b43")
+		)
+		(pin "2"
+			(uuid "1d67f2d2-1699-43f8-8398-64f135bf8ace")
+		)
+		(instances
+			(project "Colorofon_V2_SMD"
+				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -20523,7 +20724,7 @@
 			(uuid "2e71f33c-7017-48e4-88eb-a2031b52b279")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U3")
 					(unit 1)
@@ -20641,7 +20842,7 @@
 			(uuid "ce4fa300-c6a7-4e31-a337-8bc194ff72ce")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "RV6")
 					(unit 1)
@@ -20672,7 +20873,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 181.61 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20723,7 +20924,7 @@
 			(uuid "a44a263e-a1ca-4320-ac2a-61558d9dbf04")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C19")
 					(unit 1)
@@ -20804,7 +21005,7 @@
 			(uuid "1d4a9e8d-1b0b-4227-a521-4175bae690ea")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "C16")
 					(unit 1)
@@ -20886,7 +21087,7 @@
 			(uuid "acb59426-dd8c-4571-874a-7d598501ac25")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R2")
 					(unit 1)
@@ -20966,7 +21167,7 @@
 			(uuid "ceafb9ba-6505-4576-a10c-15ccfb8760ac")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "SW1")
 					(unit 1)
@@ -21064,7 +21265,7 @@
 			(uuid "2e71f33c-7017-48e4-88eb-a2031b52b27a")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U3")
 					(unit 2)
@@ -21142,7 +21343,7 @@
 			(uuid "d70ef767-2ba4-43de-9359-17c3df4e4f1c")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR011")
 					(unit 1)
@@ -21173,7 +21374,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 128.27 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21224,7 +21425,7 @@
 			(uuid "36858f46-6793-483c-8979-073b37ff3093")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R11")
 					(unit 1)
@@ -21326,7 +21527,7 @@
 			(uuid "5b57fe29-4f33-4991-82d6-5f0147117c3b")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "D2")
 					(unit 1)
@@ -21357,7 +21558,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "560"
 			(at 128.27 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21408,7 +21609,7 @@
 			(uuid "44c2408a-543f-489b-b611-660369bd7739")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R12")
 					(unit 1)
@@ -21486,85 +21687,9 @@
 			(uuid "8ffc29be-bb3f-433c-9b31-ee229710a409")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Graphic:Logo_Open_Hardware_Small")
-		(at 167.64 190.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef4f94cd-0e7f-4e82-8903-fb4f82566afe")
-		(property "Reference" "#SYM1"
-			(at 167.64 183.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Logo_Open_Hardware_Small"
-			(at 167.64 196.215 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Symbol:KiCad-Logo2_8mm_Copper"
-			(at 167.64 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Open Hardware logo, small"
-			(at 167.64 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "#SYM1")
 					(unit 1)
 				)
 			)
@@ -21640,7 +21765,7 @@
 			(uuid "0948627a-c212-4546-89d7-867cebd4e105")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#PWR017")
 					(unit 1)
@@ -21650,7 +21775,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 57.15 21.59 270)
+		(at 59.69 21.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21661,7 +21786,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4a2214e-21c7-482e-8847-abe4c51b5fe6")
 		(property "Reference" "#FLG01"
-			(at 59.055 21.59 0)
+			(at 61.595 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21672,7 +21797,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 21.5901 90)
+			(at 63.5 21.5901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21684,7 +21809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21695,7 +21820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21706,7 +21831,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 57.15 21.59 0)
+			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21720,7 +21845,7 @@
 			(uuid "41073b3e-2e87-4037-9887-4ec3357b78ae")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "#FLG01")
 					(unit 1)
@@ -21802,7 +21927,7 @@
 			(uuid "2076d8f9-74e3-4d33-8312-490898593bcb")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "TP1")
 					(unit 1)
@@ -21832,7 +21957,7 @@
 			)
 		)
 		(property "Value" "Barrel_Jack_MountingPin"
-			(at 24.384 38.354 0)
+			(at 12.954 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21884,7 +22009,7 @@
 			(uuid "1ef4b2bd-bda7-42c6-aa95-6fffc6d87143")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "J1")
 					(unit 1)
@@ -21965,7 +22090,7 @@
 			(uuid "921cd78d-d075-4d3e-b006-ebf95eae4caa")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "R23")
 					(unit 1)
@@ -21975,7 +22100,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 34.29 72.39 0)
+		(at 43.18 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21985,7 +22110,7 @@
 		(dnp no)
 		(uuid "fa0a0e26-1b66-42f2-bb1c-85cc3d11efe6")
 		(property "Reference" "U1"
-			(at 34.29 64.77 0)
+			(at 43.18 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21995,7 +22120,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 34.29 67.31 0)
+			(at 43.18 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22005,7 +22130,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
-			(at 34.29 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22016,7 +22141,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 34.29 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22027,7 +22152,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 34.29 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22062,90 +22187,9 @@
 			(uuid "45375b5b-151a-47e8-ab24-9c217deda561")
 		)
 		(instances
-			(project "Colorofon_V3_SMD"
+			(project "Colorofon_V2_SMD"
 				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 96.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa7d7e7d-91e1-49d6-bd57-f4fc70252801")
-		(property "Reference" "R22"
-			(at 199.136 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100"
-			(at 199.136 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 206.248 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 204.47 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b2ca3c1-f09b-4f6d-8588-b2b634bf8146")
-		)
-		(pin "2"
-			(uuid "884bfc91-42d7-4bfc-bad9-5111e222fe45")
-		)
-		(instances
-			(project "Colorofon_V3_SMD"
-				(path "/7ba8c1e4-2d7d-4928-ac8a-fd245d19922a"
-					(reference "R22")
 					(unit 1)
 				)
 			)
