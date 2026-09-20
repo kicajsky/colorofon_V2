@@ -12,4 +12,4 @@ MCP6002 operational amplifier
 6 V virtual ground
 Audio signal input
 Independent output for each channel
-Schematic and PCB design included
+Schematic, PCB design, board view included
